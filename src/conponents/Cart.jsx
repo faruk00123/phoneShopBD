@@ -4,7 +4,7 @@ import { FaPlus } from 'react-icons/fa'
 const cart = ({items, CartClick}) => {
    const [more, setMore] = useState(false)
    const More = ()=> {
-        setMore(toggle => !toggle)
+        setMore(!more)
    }
   return (
      <div className='bg-white my-2 mx-1 rounded shadow-2xl relative'>
